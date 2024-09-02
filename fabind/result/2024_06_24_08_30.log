@@ -1,0 +1,13 @@
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /home/tuandang/3d/test/FABind/FABind/fabind
+main_fabind.py
+Loading dataset
+compound feature based on torchdrug
+protein feature based on esm2
