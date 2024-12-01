@@ -107,6 +107,10 @@ conda env create --name pipeline --file=pipeline.yml
     ```
     python e3gnn.py
     ```
+5. ADMET properties prediction:
+    ```
+    bash admet.sh
+    ```
 
 <!-- CITING -->
 
@@ -153,5 +157,17 @@ url={https://openreview.net/forum?id=rklz9iAcKQ},
 }
 ```
 ```
-Eberhardt, J., Santos-Martins, D., Tillack, A.F., Forli, S. (2021). AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings. Journal of Chemical Information and Modeling.
+Eberhardt, J., Santos-Martins, D., Tillack, A. F., & Forli, S. (2021). AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings. Journal of chemical information and modeling, 61(8), 3891–3898. https://doi.org/10.1021/acs.jcim.1c00203
+```
+```
+@article{swanson2024admet,
+  title={ADMET-AI: a machine learning ADMET platform for evaluation of large-scale chemical libraries},
+  author={Swanson, Kyle and Walther, Parker and Leitz, Jeremy and Mukherjee, Souhrid and Wu, Joseph C and Shivnaraine, Rabindra V and Zou, James},
+  journal={Bioinformatics},
+  volume={40},
+  number={7},
+  pages={btae416},
+  year={2024},
+  publisher={Oxford University Press}
+}
 ```
