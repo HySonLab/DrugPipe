@@ -92,7 +92,7 @@ conda env create --name pipeline --file=pipeline.yml
     ```
 1. Run pipeline with gnns searching methods dataset:
     ```
-    python pipeline_gnn.py
+    python pipeline_gnn.py 0
     ```
 
 2. Run gat searching methods dataset:
