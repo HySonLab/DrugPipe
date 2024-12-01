@@ -63,6 +63,9 @@ root
 │   │   │── generation
 │   │   │   │── generation.csv
 │   │   │── ...
+│   │── admet
+│   │   │── covid_preds.csv
+│   │   │── hiv_preds.csv
 ├── datasets
 │   ├── drugbank.csv
 │   ├── drugbank_conformation
