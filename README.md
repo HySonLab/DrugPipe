@@ -117,9 +117,9 @@ conda env create --name pipeline --file=pipeline.yml
 
 <!-- CITING -->
 
-## Citing
+## References
 
-```
+```bibtex
 @inproceedings{
 velickovic2018deep,
 title="{Deep Graph Infomax}",
@@ -129,7 +129,7 @@ year={2019},
 url={https://openreview.net/forum?id=rklz9iAcKQ},
 }
 ```
-```
+```bibtex
 @misc{Gordić2020PyTorchGAT,
   author = {Gordić, Aleksa},
   title = {pytorch-GAT},
@@ -139,7 +139,7 @@ url={https://openreview.net/forum?id=rklz9iAcKQ},
   howpublished = {\url{https://github.com/gordicaleksa/pytorch-GAT}},
 }
 ```
-```
+```bibtex
 @inproceedings{
     liao2023equiformer,
     title={Equiformer: Equivariant Graph Attention Transformer for 3D Atomistic Graphs},
@@ -149,7 +149,7 @@ url={https://openreview.net/forum?id=rklz9iAcKQ},
     url={https://openreview.net/forum?id=KwmPfARgOTD}
 }
 ```
-```
+```bibtex
 @article{brandstetter2021geometric,
       title={Geometric and Physical Quantities improve E(3) Equivariant Message Passing},
       author={Johannes Brandstetter and Rob Hesselink and Elise van der Pol and Erik Bekkers and Max Welling},
@@ -159,10 +159,10 @@ url={https://openreview.net/forum?id=rklz9iAcKQ},
       primaryClass={cs.LG}
 }
 ```
-```
+```bibtex
 Eberhardt, J., Santos-Martins, D., Tillack, A. F., & Forli, S. (2021). AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings. Journal of chemical information and modeling, 61(8), 3891–3898. https://doi.org/10.1021/acs.jcim.1c00203
 ```
-```
+```bibtex
 @article{swanson2024admet,
   title={ADMET-AI: a machine learning ADMET platform for evaluation of large-scale chemical libraries},
   author={Swanson, Kyle and Walther, Parker and Leitz, Jeremy and Mukherjee, Souhrid and Wu, Joseph C and Shivnaraine, Rabindra V and Zou, James},
