@@ -1,0 +1,3 @@
+[submodule "AutoDock-Vina"]
+	path = AutoDock-Vina
+	url = https://github.com/ccsb-scripps/AutoDock-Vina
