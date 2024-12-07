@@ -1,6 +1,6 @@
 <!-- PAPER TITLE -->
 
-# Generative AI-assisted drug discovery pipeline
+# Generative AI-assisted Drug Discovery Pipeline
 
 <!-- TABLE OF CONTENTS -->
 
