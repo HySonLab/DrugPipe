@@ -160,7 +160,17 @@ url={https://openreview.net/forum?id=rklz9iAcKQ},
 }
 ```
 ```bibtex
-Eberhardt, J., Santos-Martins, D., Tillack, A. F., & Forli, S. (2021). AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings. Journal of chemical information and modeling, 61(8), 3891–3898. https://doi.org/10.1021/acs.jcim.1c00203
+@article{doi:10.1021/acs.jcim.1c00203,
+author = {Eberhardt, Jerome and Santos-Martins, Diogo and Tillack, Andreas F. and Forli, Stefano},
+title = {AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings},
+journal = {Journal of Chemical Information and Modeling},
+volume = {61},
+number = {8},
+pages = {3891-3898},
+year = {2021},
+doi = {10.1021/acs.jcim.1c00203},
+    note ={PMID: 34278794},
+}
 ```
 ```bibtex
 @article{swanson2024admet,
