@@ -117,6 +117,23 @@ conda env create --name pipeline --file=pipeline.yml
 
 <!-- CITING -->
 
+## If our work is useful, please cite us!
+
+```bibtex
+@article {Pham2024.12.07.627340,
+	author = {Pham, Phuc and Nguyen, Viet Thanh Duy and Cho, Kyu Hong and Hy, Truong Son},
+	title = {Generative AI-assisted Virtual Screening Pipeline for Generalizable and Efficient Drug Repurposing},
+	elocation-id = {2024.12.07.627340},
+	year = {2024},
+	doi = {10.1101/2024.12.07.627340},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Drug repurposing presents a valuable strategy to expedite drug discovery by identifying new therapeutic uses for existing compounds, especially for diseases with limited treatment options. We propose a Generative AI-assisted Virtual Screening Pipeline that combines generative modeling, binding pocket prediction, and similarity-based searches within drug databases to achieve a generalizable and efficient approach to drug repurposing. Our pipeline enables blind screening of any protein target without requiring prior structural or functional knowledge, allowing it to adapt to a wide range of diseases, including emerging health threats and novel targets where information is scarce. By rapidly generating potential ligands and efficiently identifying and ranking drug candidates, our approach accelerates the drug discovery process, broadening the scope and impact of repurposing efforts and offering new possibilities for therapeutic development. Detailed results and implementation can be accessed at https://github.com/HySonLab/DrugPipeCompeting Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2024/12/11/2024.12.07.627340},
+	eprint = {https://www.biorxiv.org/content/early/2024/12/11/2024.12.07.627340.full.pdf},
+	journal = {bioRxiv}
+}
+```
+
 ## References
 
 ```bibtex
