@@ -61,7 +61,7 @@ root
 │   │   │── remove_water
 │   │   │   │── 2jle.pdb
 │   │   │   │── 2jle.pdbqt
-│   │── covid19                         # Output of DrugPipe for the HIV scenario
+│   │── covid19                         # Output of DrugPipe for the COVID19 scenario
 │   │   │── generation
 │   │   │   │── generation.csv
 │   │   │── ...
