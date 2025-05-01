@@ -51,7 +51,7 @@ Files should be placed as the following folder structure:
 ```
 root
 ├── assets
-│   ├── hiv
+│   ├── hiv                             # Output of DrugPipe for the HIV scenario
 │   │   │── generation
 │   │   │   │── generation.csv
 │   │   │── generation_docking
@@ -61,7 +61,7 @@ root
 │   │   │── remove_water
 │   │   │   │── 2jle.pdb
 │   │   │   │── 2jle.pdbqt
-│   │── covid19
+│   │── covid19                         # Output of DrugPipe for the HIV scenario
 │   │   │── generation
 │   │   │   │── generation.csv
 │   │   │── ...
@@ -69,16 +69,16 @@ root
 │   │   │── covid_preds.csv
 │   │   │── hiv_preds.csv
 |   |── 3d_structure
-│   │   │── 2jle.pdb          # protein structure
-│   │   │── 2jle_pipeline.pdbqt # output ligand of DrugPipe
-│   │   │── 2jle_qvinaw.pdbqt # qvina-w
-│   │   │── 2jle_gt.pdb       # gt ligand structure
+│   │   │── 2jle.pdb                    # protein structure
+│   │   │── 2jle_pipeline.pdbqt         # output ligand of DrugPipe
+│   │   │── 2jle_qvinaw.pdbqt           # qvina-w
+│   │   │── 2jle_gt.pdb                 # gt ligand structure
 │   │   │── ...
 |   |── q_vinaw
-│   │   │── qvinaw_2jle.csv # name ligand, q_vina_score and docking time of protein 2jle 
+│   │   │── qvinaw_2jle.csv             # name ligand, q_vina_score and docking time of protein 2jle 
 │   │   │── ...
 |   |── drug_similarity
-|   |   |── similarity_ranks_gnns.txt  # similarity of other drugs vs real drugs
+|   |   |── similarity_ranks_gnns.txt   # similarity of other drugs vs real drugs
 |   |   |── ....
 ├── datasets
 │   ├── drugbank.csv
