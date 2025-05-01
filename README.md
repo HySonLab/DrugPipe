@@ -1,6 +1,6 @@
 <!-- PAPER TITLE -->
 
-# Generative AI-assisted Drug Discovery Pipeline
+# Generative AI-assisted Drug Repurposing Pipeline
 
 Paper: https://www.biorxiv.org/content/10.1101/2024.12.07.627340v1
 
