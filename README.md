@@ -12,6 +12,7 @@ Paper: https://www.biorxiv.org/content/10.1101/2024.12.07.627340v1
     <li><a href="#abstract">Abstract</a></li>
     <li><a href="#filestructure">Files structure</a></li>
     <li><a href="#environmentsetup">Environments setup</a></li>
+    <li><a href="#results">Result</a></li>
     <li><a href="#citing">Citing</a></li>
   </ol>
 </details>
@@ -128,7 +129,8 @@ conda env create --name pipeline --file=pipeline.yml
     ```
     bash admet.sh
     ```
-
+6. Real drugs searching:
+  
 <!-- CITING -->
 
 ## If our work is useful, please cite us!
@@ -213,5 +215,17 @@ doi = {10.1021/acs.jcim.1c00203},
   pages={btae416},
   year={2024},
   publisher={Oxford University Press}
+}
+```
+```bibtex
+@article{hassan2017protein,
+  title={Protein-ligand blind docking using QuickVina-W with inter-process spatio-temporal integration},
+  author={Hassan, Nafisa M and Alhossary, Amr A and Mu, Yuguang and Kwoh, Chee-Keong},
+  journal={Scientific reports},
+  volume={7},
+  number={1},
+  pages={15451},
+  year={2017},
+  publisher={Nature Publishing Group UK London}
 }
 ```
