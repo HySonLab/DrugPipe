@@ -21,23 +21,7 @@ Paper: https://www.biorxiv.org/content/10.1101/2024.12.07.627340v1
 
 ## Abstract
 
- Drug repurposing presents a valuable strat-
-egy to expedite drug discovery by identifying new ther-
-apeutic uses for existing compounds, especially for dis-
-eases with limited treatment options. We propose a Gen-
-erative AI-assisted Virtual Screening Pipeline that com-
-bines generative modeling, binding pocket prediction, and
-similarity-based searches within drug databases to achieve
-a generalizable and efficient approach to drug repurposing.
-Our pipeline enables blind screening of any protein target
-without requiring prior structural or functional knowledge,
-allowing it to adapt to a wide range of diseases, including
-emerging health threats and novel targets where informa-
-tion is scarce. By rapidly generating potential ligands and
-efficiently identifying and ranking drug candidates, our ap-
-proach accelerates the drug discovery process, broadening
-the scope and impact of repurposing efforts and offering
-new possibilities for therapeutic development. 
+ Drug repurposing presents a valuable strategy to expedite drug discovery by identifying new therapeutic uses for existing compounds, especially for diseases with limited treatment options. We propose a Generative AI-assisted Virtual Screening Pipeline that combines generative modeling, binding pocket prediction, and similarity-based searches within drug databases to achieve a generalizable and efficient approach to drug repurposing. Our pipeline enables blind screening of any protein target without requiring prior structural or functional knowledge, allowing it to adapt to a wide range of diseases, including emerging health threats and novel targets where information is scarce. By rapidly generating potential ligands and efficiently identifying and ranking drug candidates, our approach accelerates the drug discovery process, broadening the scope and impact of repurposing efforts and offering new possibilities for therapeutic development. 
 
 <p align="center">
    <img src="assets/images/pipeline.png" data-canonical-src="assets/images/pipeline.png" width="600"/><br/>
@@ -46,8 +30,8 @@ generates potential ligands using generative AI, and Phase 2 identifies promisin
 within drug databases.</i>
  </p>
 
-### Files structure
-Files should be placed as the following folder structure:
+### File structure
+Files should be placed in the following folder structure:
 
 ```
 root
@@ -97,8 +81,8 @@ root
 ├── utils.py
 ├── README.md
 ```
-### Environments setup
-Please install the environments by the following command:
+### Environment setup
+Please install the environments with the following command:
 ```
 conda env create --name pipeline --file=pipeline.yml
 ```
@@ -156,17 +140,20 @@ The results are organized in the `assets` folder with the following subdirectori
 ## If our work is useful, please cite us!
 
 ```bibtex
-@article {Pham2024.12.07.627340,
-	author = {Pham, Phuc and Nguyen, Viet Thanh Duy and Cho, Kyu Hong and Hy, Truong Son},
-	title = {Generative AI-assisted Virtual Screening Pipeline for Generalizable and Efficient Drug Repurposing},
-	elocation-id = {2024.12.07.627340},
-	year = {2024},
-	doi = {10.1101/2024.12.07.627340},
-	publisher = {Cold Spring Harbor Laboratory},
-	abstract = {Drug repurposing presents a valuable strategy to expedite drug discovery by identifying new therapeutic uses for existing compounds, especially for diseases with limited treatment options. We propose a Generative AI-assisted Virtual Screening Pipeline that combines generative modeling, binding pocket prediction, and similarity-based searches within drug databases to achieve a generalizable and efficient approach to drug repurposing. Our pipeline enables blind screening of any protein target without requiring prior structural or functional knowledge, allowing it to adapt to a wide range of diseases, including emerging health threats and novel targets where information is scarce. By rapidly generating potential ligands and efficiently identifying and ranking drug candidates, our approach accelerates the drug discovery process, broadening the scope and impact of repurposing efforts and offering new possibilities for therapeutic development. Detailed results and implementation can be accessed at https://github.com/HySonLab/DrugPipeCompeting Interest StatementThe authors have declared no competing interest.},
-	URL = {https://www.biorxiv.org/content/early/2024/12/11/2024.12.07.627340},
-	eprint = {https://www.biorxiv.org/content/early/2024/12/11/2024.12.07.627340.full.pdf},
-	journal = {bioRxiv}
+@article{10.1093/biomethods/bpaf038,
+    author = {Pham, Phuc and Nguyen, Viet Thanh Duy and Cho, Kyu Hong and Hy, Truong-Son},
+    title = {DrugPipe: Generative artificial intelligence-assisted virtual screening pipeline for generalizable and efficient drug repurposing},
+    journal = {Biology Methods and Protocols},
+    volume = {10},
+    number = {1},
+    pages = {bpaf038},
+    year = {2025},
+    month = {05},
+    abstract = {Drug repurposing presents a promising strategy to accelerate drug discovery by identifying new therapeutic uses for existing compounds, particularly for diseases with limited or no effective treatment options. We introduce DrugPipe, a ‘Generative AI-Assisted Virtual Screening Pipeline’ developed within the target-centric paradigm of drug repurposing, which aims to discover new indications by identifying compounds that interact with a specific protein target. ‘DrugPipe’ integrates generative modeling, binding pocket prediction, and similarity-based retrieval from drug databases to enable a scalable and generalizable in silico repurposing workflow. It supports blind virtual screening for any protein target without requiring prior structural or functional annotations, making it especially suited for novel or understudied targets and emerging health threats. By efficiently generating candidate ligands and rapidly retrieving structurally similar approved drugs, ‘DrugPipe’ accelerates the identification and prioritization of repurposable compounds. In comparative evaluations, it achieves hit rate performance comparable to QVina-W, a widely used blind docking tool, while significantly reducing computational time, highlighting its practical value for large-scale virtual screening and data-scarce repurposing scenarios. The full implementation and evaluation details are available at https://github.com/HySonLab/DrugPipe.},
+    issn = {2396-8923},
+    doi = {10.1093/biomethods/bpaf038},
+    url = {https://doi.org/10.1093/biomethods/bpaf038},
+    eprint = {https://academic.oup.com/biomethods/article-pdf/10/1/bpaf038/63406989/bpaf038.pdf},
 }
 ```
 
