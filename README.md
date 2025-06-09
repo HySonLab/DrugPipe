@@ -1,8 +1,10 @@
 <!-- PAPER TITLE -->
 
-# Generative AI-assisted Drug Repurposing Pipeline
+# DrugPipe: Generative artificial intelligence-assisted virtual screening pipeline for generalizable and efficient drug repurposing
 
-Paper: https://www.biorxiv.org/content/10.1101/2024.12.07.627340v1
+Paper: https://academic.oup.com/biomethods/article/10/1/bpaf038/8153905
+
+Preprint: https://www.biorxiv.org/content/10.1101/2024.12.07.627340v1
 
 <!-- TABLE OF CONTENTS -->
 
